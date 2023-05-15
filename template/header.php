@@ -2,11 +2,13 @@
 <html>
 <head>
 	<title>SIMPLE LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/custom.css">
 </head>
 <body>
-       <h1>YOUR HEADER</h1>
+       
        <div class="left-menu">
+	   <h1>IGP SYSTEM</h1>
 	       <?php 
 		        if($userLevel == 'SUPERUSER'){ 
 		               include 'includes/menu-for-superuser.php';               	     

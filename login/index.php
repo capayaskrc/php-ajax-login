@@ -51,28 +51,30 @@
     renderTime();
 </script>
   </head>
-<body>    
+<body> 
+       
 <div class="col-md-12" >
-               <div class="col-md-8">
-                   <h1 style="color:#FFF;">LOGIN</h1>
-               </div>
-               <div class="col-md-4">
-                  <div id="clockDisplay" style="font-size: 50px; color:#fff;font-family: 'Times New Roman', Times, serif;"></div>
-                      <p style="color:#fff;font-size:35px;" ><?php echo date("D, M d ")?></p>
-               </div>
-                    
-           </div>
-      <div class="container">
+    <!-- HEADER -->
+    <div class="col-md-10">
+         <h1 style="color:#FFF;">LOGIN</h1>
+    </div>
+    <div class="col-md-2">
+        <div id="clockDisplay" style="font-size: 50px; color:#fff;font-family: 'Times New Roman', Times, serif;"></div>
+            <p style="color:#fff;font-size:35px;" ><?php echo date("D, M d ")?></p>
+        </div>
+    </div>
+</div>
+    <!-- BODY -->
+    <div class="d-flex align-items-center" >
+      <div class="container fluid mx-auto align-items-center" style="height: 1000px;">
              <br/>   
-           
          <div class="col-md-3 col-sm-offset-2" >
               <div class="panel panel-default" style="border-radius:0px;box-shadow:none;">
                    <div class="panel-body" style="padding:7px;">
-                       <img src="akomismo.jpg" class="img-responsive"  style="font-size: 50px; color:#fff;font-family: 'Times New Roman', Times, serif;">
+                       <img src="akomismo2.jpg" class="img-responsive"  style="font-size: 50px; color:#fff;font-family: 'Times New Roman', Times, serif;">
                    </div>
               </div>
          </div>
-
          <div class="col-md-4 col-md-offset-0">
                       <div id="msg" style="color:#fff;"></div>
                       <div id="loginUser"></div>  
@@ -94,9 +96,8 @@
                   </div>
              </form>
          </div>
-        
+    </div>
            
-      </div>
     <script src="assets/js/jquery.js"></script>
 	<script src="assets/js/login.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>

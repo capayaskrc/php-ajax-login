@@ -10,7 +10,7 @@
             		      $content = 'views/superuser/index.php';
                       $active  = 'dashboard';
             		      $css     =  array(""); // you can include here your css style in your per module but depends on you
-            		      $js      =  array(""); // your action.js every module 
+            		      $js      =  array("vendor/twbs/bootstrap/dist/js/bootstrap.min.js"); // your action.js every module 
             		      $flag    = 1; // if 1 has include files else no include files
             		break;
 

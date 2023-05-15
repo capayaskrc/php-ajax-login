@@ -1,5 +1,5 @@
 body{
-   background-color: #fff; 
+   background-color: #fff;
 }
 .left-menu li{
 	float: left;
@@ -29,7 +29,6 @@ body{
 
 .right-menu li{
 	float: right;
-
 	display: inline-block;
 	background-color:green; 
 	padding: 5px 7px;
@@ -57,3 +56,5 @@ body{
 .active{
 	color: gold !important;
 }
+
+

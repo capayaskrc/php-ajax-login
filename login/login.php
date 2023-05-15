@@ -2,7 +2,7 @@
 <?php extract($_POST) ?>
 
 <?php
-     $sql = $db->query("SELECT * FROM tbl_users WHERE userName = '".$username."' AND userPass = '".$password."' ");
+     $sql = $db->query("SELECT * FROM tbl_users WHERE userName = '".$username."' AND userPass = '".md5($password)."' ");
      $row = $sql->fetch(PDO::FETCH_ASSOC);
 
      if($sql->rowCount() > 0){
