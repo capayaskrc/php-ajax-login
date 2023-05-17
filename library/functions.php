@@ -1,6 +1,6 @@
 <?php 
 	
-	Class Jayvee {
+	Class igp {
 
 		function __construct($Conn = null){
 
@@ -9,5 +9,5 @@
 
 	}
 
-	$New = new Jayvee($db);
+	$New = new igp($db);
  ?>
