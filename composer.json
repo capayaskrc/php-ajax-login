@@ -1,5 +1,13 @@
 {
     "require": {
-        "twbs/bootstrap": "5.0.2"
-    }
+        "twbs/bootstrap": "5.0.2",
+        "tecnickcom/tc-lib-pdf": "dev-main"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:tecnickcom/tc-lib-pdf.git"
+        }
+    ]
 }
